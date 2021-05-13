@@ -8,6 +8,7 @@
 html,
 body {
  font-family: 'Josefin Sans', sans-serif;
+ scroll-behavior: smooth;
 }
 
 li {
@@ -321,4 +322,49 @@ h3 {
   -webkit-box-direction: normal;
   flex-direction: column;
  }
+}
+
+
+.portfolio{
+ width: 100% auto;
+ height: auto;
+ background-color: #F0F1FC;
+ max-width: 1000px;
+ margin: auto;
+}
+.row {
+ margin: 8px -16px;
+}
+.row,
+.row>.column {
+ padding: 8px;
+}
+.column {
+ float: left;
+ width: 25%;
+}
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+.content {
+ background-color: white;
+ padding: 10px;
+}
+@media screen and (max-width: 900px) {
+ .column {
+  width: 50%;
+ }
+}
+@media screen and (max-width: 600px) {
+ .column {
+  width: 100%;
+ }
+}
+
+
+.contact {
+ width: 100% auto;
+ height: 400px;
 }
