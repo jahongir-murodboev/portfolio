@@ -18,8 +18,6 @@ function closeMenu() {
 }
 
 
-
-
 var string = "Front End Web Developer & Freelancer";
 var str = string.split("");
 var el = document.getElementById('str');
